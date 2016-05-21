@@ -4,7 +4,7 @@ public class TestaControleDePonto {
 		ControleDePonto cdp = new ControleDePonto();
 		Gerente g = new Gerente();
 		g.setNome("Gerente 1");
-		g.setUsuario("gerente1");
+		g.setUsuario("gerente1.user");
 		cdp.registraEntrada(g);
 		Telefonista t = new Telefonista();
 		t.setNome("Telefonista 1");
